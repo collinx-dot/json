@@ -1,9 +1,10 @@
 {
   "name": "my-jason-server",
   "version": "1.0.0",
-  "main": "api/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node api/index.js"
+    "start": "json-server db.json",
+    "startport": "json-server db.json --port 3000"
   },
   "dependencies": {
     "json-server": "^0.17.4",
